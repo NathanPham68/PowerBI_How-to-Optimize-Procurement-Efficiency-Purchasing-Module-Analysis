@@ -2,6 +2,13 @@
 ## I. Introduction
 This project focuses on analyzing and understanding the Purchasing Module of the AdventureWorks database — a sample enterprise resource planning (ERP) system for a manufacturing company. The module manages all purchasing operations, including vendor information, purchase orders, purchase order details, and receipts. By exploring this module, we aim to uncover inefficiencies, optimize procurement processes, and generate actionable insights that can help a business make informed purchasing decisions.
 
+## II. Dataset
+
+📂 Dataset Access - [AdventureWorksDW2019.bak](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+
+📂 Requirements
+* Visualization Tool - Microsoft PowerBI
+
 ## II. Design Thinking Method
 To approach this project effectively, we applied the Design Thinking methodology, which ensures a user-centric, iterative, and problem-solving mindset.
 
@@ -40,19 +47,23 @@ Step 5 – Review
 We reviewed our prototype with stakeholders to ensure it addressed the identified issues and provided clear, actionable insights for the procurement team.
 
 ## III. Visualization
-### 1. Summary
+### 1. Entity Relationship Diagram Model
+
+![image](https://github.com/user-attachments/assets/705a4d22-ed11-49cd-b754-148ee90a7197)
+
+### 2. Summary
 
 ![image](https://github.com/user-attachments/assets/d1b940bc-d942-4824-9e72-b118a983f754)
 
-### 2. RejectRate
+### 3. RejectRate
 
 ![image](https://github.com/user-attachments/assets/51ac75fe-96fc-47de-a69c-9e3992eea251)
 
-### 3. Database
+### 4. Database
 
 ![image](https://github.com/user-attachments/assets/78b97da7-eee6-4e20-8c6c-f82622658c99)
 
-### 4. ScrapReason
+### 5. ScrapReason
 
 ![image](https://github.com/user-attachments/assets/158d2e4a-0704-4870-8927-89d2dd1713ee)
 
