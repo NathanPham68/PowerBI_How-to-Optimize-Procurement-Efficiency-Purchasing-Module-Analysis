@@ -9,7 +9,7 @@ This project focuses on analyzing and understanding the Purchasing Module of the
 📂 Requirements
 * Visualization Tool - Microsoft PowerBI
 
-## II. Design Thinking Method
+## III. Design Thinking Method
 To approach this project effectively, we applied the Design Thinking methodology, which ensures a user-centric, iterative, and problem-solving mindset.
 
 ### Step 1 – Empathize
@@ -46,7 +46,7 @@ Step 5 – Review
 
 We reviewed our prototype with stakeholders to ensure it addressed the identified issues and provided clear, actionable insights for the procurement team.
 
-## III. Visualization
+## IV. Visualization
 ### 1. Entity Relationship Diagram Model
 
 ![image](https://github.com/user-attachments/assets/705a4d22-ed11-49cd-b754-148ee90a7197)
@@ -67,14 +67,14 @@ We reviewed our prototype with stakeholders to ensure it addressed the identifie
 
 ![image](https://github.com/user-attachments/assets/158d2e4a-0704-4870-8927-89d2dd1713ee)
 
-## IV. Insights
+## V. Insights
 Key insights from the analysis include:
 * A small number of vendors account for the majority of spending.
 * Delayed shipments are concentrated with specific vendors and shipment methods.
 * Certain products consistently have higher receipt discrepancies.
 * High frequency of low-value orders, suggesting opportunities for order consolidation.
 
-V. Recommendations
+## VI. Recommendations
 Based on the findings, we recommend:
 * Negotiating better terms with top vendors and phasing out underperforming suppliers.
 * Automating approval workflows to reduce purchase order delays.
