@@ -1,5 +1,7 @@
-# [POWER BI] Adventure_Works
+# [POWER BI] How to Optimize Procurement Efficiency? - Purchasing Module Analysis
+
 ## I. Introduction
+
 This project focuses on analyzing and understanding the Purchasing Module of the AdventureWorks database — a sample enterprise resource planning (ERP) system for a manufacturing company. The module manages all purchasing operations, including vendor information, purchase orders, purchase order details, and receipts. By exploring this module, we aim to uncover inefficiencies, optimize procurement processes, and generate actionable insights that can help a business make informed purchasing decisions.
 
 ## II. Dataset
