@@ -256,19 +256,23 @@ We reviewed our prototype with stakeholders to ensure it addressed the identifie
 
 ### 2. Summary
 
-![image](https://github.com/user-attachments/assets/d1b940bc-d942-4824-9e72-b118a983f754)
+<img width="1436" height="822" alt="image" src="https://github.com/user-attachments/assets/d628a413-526a-4218-945a-048e48759a25" />
 
 ### 3. RejectRate
 
-![image](https://github.com/user-attachments/assets/51ac75fe-96fc-47de-a69c-9e3992eea251)
+<img width="1436" height="824" alt="image" src="https://github.com/user-attachments/assets/5b56f359-1623-41c7-9c2c-23bd39047cc9" />
 
-### 4. Database
+### 4. Product
 
-![image](https://github.com/user-attachments/assets/78b97da7-eee6-4e20-8c6c-f82622658c99)
+<img width="1436" height="815" alt="image" src="https://github.com/user-attachments/assets/8a433d36-409d-441b-952a-f60a509e8c10" />
 
-### 5. ScrapReason
+### 5. Vendor
 
-![image](https://github.com/user-attachments/assets/158d2e4a-0704-4870-8927-89d2dd1713ee)
+<img width="1436" height="810" alt="image" src="https://github.com/user-attachments/assets/06a32a95-76e3-4096-bc7e-9e6e6e5cfeda" />
+
+### 6. Database
+
+<img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/6a8f2c3f-5f4d-4ff3-94e2-80968dee7ccf" />
 
 ## V. Insights
 Key insights from the analysis include:
