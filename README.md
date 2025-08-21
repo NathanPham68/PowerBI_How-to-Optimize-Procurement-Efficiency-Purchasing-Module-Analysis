@@ -256,23 +256,23 @@ We reviewed our prototype with stakeholders to ensure it addressed the identifie
 
 ### 2. Summary
 
-<img width="1436" height="822" alt="image" src="https://github.com/user-attachments/assets/d628a413-526a-4218-945a-048e48759a25" />
+<img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/40ca97bf-bcbc-4c03-a456-ceb2b2e480ed" />
 
 ### 3. RejectRate
 
-<img width="1436" height="824" alt="image" src="https://github.com/user-attachments/assets/5b56f359-1623-41c7-9c2c-23bd39047cc9" />
+<img width="1436" height="826" alt="image" src="https://github.com/user-attachments/assets/98598126-9418-4124-9b72-5e84786e8491" />
 
 ### 4. Product
 
-<img width="1436" height="815" alt="image" src="https://github.com/user-attachments/assets/8a433d36-409d-441b-952a-f60a509e8c10" />
+<img width="1436" height="827" alt="image" src="https://github.com/user-attachments/assets/15bd38d2-f1fa-4914-9338-a649bc2cb832" />
 
 ### 5. Vendor
 
-<img width="1436" height="810" alt="image" src="https://github.com/user-attachments/assets/06a32a95-76e3-4096-bc7e-9e6e6e5cfeda" />
+<img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/4836b95f-0da6-47da-aa1d-c9cb84b986ae" />
 
 ### 6. Database
 
-<img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/6a8f2c3f-5f4d-4ff3-94e2-80968dee7ccf" />
+<img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/1e7c1694-c1f3-450f-b22f-9dbb4badccc9" />
 
 ## V. Insights
 Key insights from the analysis include:
