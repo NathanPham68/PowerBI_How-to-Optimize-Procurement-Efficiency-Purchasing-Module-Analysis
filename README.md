@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
-1. [📌 Background & Overview](#background--overview)
+1. [📌 Introduction](#Introduction)
 
-2. [📂 Dataset Description & Data Structure](#dataset-description--data-structure)
+2. [📂 Dataset](#dataset)
 
-3. [🧠 Design Thinking Process](#design-thinking-process)
+3. [🧠 Design Thinking Method](#design-thinking-method)
 
-4. [📊 Key Insights & Visualizations](#key-insights--visualizations)
+4. [📊 Visualizations](#visualizations)
 
-5. [🔎 Final Conclusion & Recommendation](#final-conclusion--recommendation)
+5. [🔎 Insights & Recommendations](#Insights-&-recommendation)
 
 ## I. Introduction
 
