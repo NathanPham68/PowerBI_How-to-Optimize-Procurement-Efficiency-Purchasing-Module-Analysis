@@ -334,32 +334,70 @@ The Procurement Performance Dashboard became a strategic tool for enhancing both
 
 <img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/40ca97bf-bcbc-4c03-a456-ceb2b2e480ed" />
 
+* Back Orders & Late Deliveries: Spikes up to 50%, revealing supply bottlenecks and poor demand forecasting.
+
+* Category Insights: Clothing & Components dominate; demand follows seasonal cycles that can be predicted.
+
+* Cost Efficiency: Average PO cost shows high volatility, suggesting inconsistent supplier pricing and order planning.
+
+* Quality Issues: Rejection rates average 3%, but peak near 30%, pointing to supplier quality gaps.
+
+* Fulfillment & Lead Time: Overall strong (90–100% fulfillment, 9 days ship time) but with noticeable dips in continuity.
+
 ### 3. RejectRate
 
 <img width="1436" height="826" alt="image" src="https://github.com/user-attachments/assets/98598126-9418-4124-9b72-5e84786e8491" />
+
+* Total Purchase Spend: $63.8M with an average PO cost of $7.2K.
+
+* On-Time Fulfillment Rate: Excellent at 99.9%, ensuring supply continuity.
+
+* Back Order Rate: 9.4%, still a concern that signals demand-supply mismatch.
+
+* Rejections: Concentrated among a few vendors (e.g., Supersales Inc. tops with 6.4K rejects).
+
+* Product-Level Issues: High rejection in components (Decals, Crankarms, Pedals) → highlights potential quality control gaps.
+
+* Credit Rating: Majority of rejected orders come from suppliers with rating “1”, showing volume doesn’t always equal reliability.
 
 ### 4. Product
 
 <img width="1436" height="827" alt="image" src="https://github.com/user-attachments/assets/15bd38d2-f1fa-4914-9338-a649bc2cb832" />
 
+* Purchase volume peaked in early 2014, then dropped; avg. price stable → consistent supplier pricing.
+
+* Inventory turnover spiked in Jul 2014 (17K) but weak in prior years → risk of overstocking.
+
+* Critical stockouts: Hex Nuts, Hitch Racks, Gloves → urgent reorder needed.
+
+* High spend concentration on bike frames → strategic supplier dependency.
+
+* Backorder rate high in Components (15.7%) → supplier reliability issue.
+
 ### 5. Vendor
 
 <img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/4836b95f-0da6-47da-aa1d-c9cb84b986ae" />
+
+* Superior Bicycles (4.6M) & Professional Athletic Consultants (3.1M) drive most cost variance.
+
+* High backorders with Superior Bicycles (20%), Jackson Authority & Vision Cycles (>17%) = supply risk.
+
+* 90% of POs are with preferred vendors → good alignment, but 10% non-preferred adds risk.
+
+* Victory Bikes (high spend, Below Avg rating) → underperforming; Sport Fan Co. shows strong potential.
 
 ### 6. Database
 
 <img width="1436" height="825" alt="image" src="https://github.com/user-attachments/assets/1e7c1694-c1f3-450f-b22f-9dbb4badccc9" />
 
-## V. Insights
-Key insights from the analysis include:
-* A small number of vendors account for the majority of spending.
-* Delayed shipments are concentrated with specific vendors and shipment methods.
-* Certain products consistently have higher receipt discrepancies.
-* High frequency of low-value orders, suggesting opportunities for order consolidation.
+## V. Insights & Recommendations
 
-## VI. Recommendations
-Based on the findings, we recommend:
-* Negotiating better terms with top vendors and phasing out underperforming suppliers.
-* Automating approval workflows to reduce purchase order delays.
-* Consolidating frequent small orders to optimize shipping costs.
-* Implementing stricter checks and balances to improve data accuracy in vendor records.
+| **Aspect**                         | **Insight**                                                                                                                                                                                                                                       | **Recommendation**                                                                                                                                                                              |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Order & PO Performance**         | - **Peak demand in May–June** leads to pressure on operations, with **Late Orders & Back Orders** peaking in June–July (\~9–10%). <br> - After August, fulfillment stabilizes.                                                                    | - Strengthen **capacity planning** for peak seasons. <br> - Apply tighter tracking for **at-risk POs** to avoid backlog.                                                                        |
+| **PO Cost & Trends**               | - **PO costs fluctuate**, highest in March, dropping by October. <br> - Year-end average stabilizes around **\$7.0K–\$7.2K**.                                                                                                                     | - Maintain strict **cost controls** at year-end. <br> - Proactively **adjust procurement strategy** to offset sudden cost spikes.                                                               |
+| **Vendor Performance & Risks**     | - Suppliers like **Supersales Inc.** show **6.4K rejects** (highest). <br> - Vendors with **Credit Rating = 1** generate largest rejection volumes. <br> - Backorders concentrated with **Chicago City (21.6%)** and **Superior Bicycles (20%)**. | - Implement stronger **supplier scorecards & audits**. <br> - **Renegotiate terms** or reassess suppliers with high backorders/rejections. <br> - Focus on improving **delivery reliability**.  |
+| **Product & Inventory Management** | - **Blank category (\$22M)** indicates incomplete product classification, limiting spend visibility. <br> - **Pedals, Tires & Tubes** are major spend drivers. <br> - High reject SKUs include **Decals, Pedals, Crankarms**.                     | - Enhance **product categorization** for accurate spend tracking. <br> - Prioritize **high-spend categories** in procurement planning. <br> - Apply stricter **QC measures** on high-risk SKUs. |
+| **Logistics & Transportation**     | - **Cargo Transport** is the weakest logistics partner, accounting for **29K rejected shipments**.                                                                                                                                                | - Reassess **logistics providers** with high rejection rates. <br> - Explore alternative transport options to reduce risks.                                                                     |
+
+
