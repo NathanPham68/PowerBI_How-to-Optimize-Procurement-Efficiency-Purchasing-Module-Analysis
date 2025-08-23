@@ -199,39 +199,115 @@ The dataset consists of 7 main tables used to build the purchasing dashboard:
 ## III. Design Thinking Method
 To approach this project effectively, we applied the Design Thinking methodology, which ensures a user-centric, iterative, and problem-solving mindset.
 
-### Step 1 – Empathize
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b4cae5d9-2c99-4ba6-b1a7-1091e34eae87" />
 
-We studied the end-users of the purchasing process, such as procurement officers, warehouse staff, and finance teams. By understanding their pain points — like tracking supplier performance, managing purchase order accuracy, and ensuring timely deliveries — we could better define project goals.
+### ✅ Step 1 – Empathize
 
-### Step 2 – Define
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb0471a2-3c74-42f0-8020-53cf3a22f5fb" />
 
-* Based on our research, we defined key challenges:
-* Delays in purchase order approvals.
-* Difficulty in monitoring vendor reliability.
-* Complex tracking of received goods vs. ordered quantities.
-* Potential duplication or inconsistency in supplier records.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cbc1a848-18eb-4fd1-b695-a6521d081fde" />
 
-### Step 3 – Ideate
+The Purchasing department faced multiple challenges in managing procurement effectively. Stakeholders had to open many files to gather data, information was not real-time, and there was no clear reporting structure to track key KPIs. This made it difficult to monitor vendor performance, order handling, and purchasing costs.
 
-We brainstormed potential solutions, including:
-* Developing dashboards to monitor supplier performance.
-* Automating alerts for delayed deliveries.
-* Implementing visualizations to compare ordered vs. received quantities.
-* Enhancing data integrity with duplicate checks.
+To address these pain points, stakeholders approached the Data Analyst team with a request for a dashboard that could centralize procurement data, display key metrics, and provide insights into operational trends.
 
-Step 4 – Prototype
+* Executives would use it daily to check if strategic KPIs were met.
 
-We designed data models and sample reports using the AdventureWorks Purchasing tables:
-* Vendor: Stores supplier details.
-* PurchaseOrderHeader: Holds summary info of each PO.
-* PurchaseOrderDetail: Contains line items.
-* ShipMethod: Tracks shipment methods.
-* ProductVendor: Connects products to vendors.
-* VendorContact: Manages vendor contact information.
+* Managers would rely on it for weekly/monthly meetings to identify root causes of issues.
 
-Step 5 – Review
+* Operational staff would track inventory readiness and supplier performance.
 
-We reviewed our prototype with stakeholders to ensure it addressed the identified issues and provided clear, actionable insights for the procurement team.
+This set the foundation for a data-driven approach to procurement improvement.
+
+### ✅ Step 2 – Define
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8fa09d30-65b5-417b-89c2-df53215671cd" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8eac1205-12d0-4234-b5b2-f4b70535cfdf" />
+
+From stakeholder discussions, two North Star Metrics were defined:
+
+* Back Order Rate – A measure of how many orders were not fulfilled on time.
+
+Success Indicator: A decreasing back order rate, ensuring smoother production and reduced costs from emergency orders.
+
+* Average Purchase Order Cost – A measure of cost efficiency in procurement.
+
+Success Indicator: Optimized purchasing costs, ensuring the right quantity and quality at a reasonable price.
+
+These metrics captured the most critical aspects of procurement: delivery performance and cost effectiveness.
+
+### ✅ Step 3 – Ideate
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/494015ca-57c0-455b-8e6c-bbf4a2181120" />
+
+The Purchasing team brainstormed perspectives (POVs) to guide dashboard design:
+
+1. Supplier Performance – Who consistently delivers on time and within budget?
+
+2. Order Fulfillment – How are orders progressing, and are back orders under control?
+
+3. Cost Efficiency – Are we buying at the right cost compared to benchmarks?
+
+4. Inventory Readiness – Do we have sufficient stock to prevent production delays?
+
+Ideas were structured into layers of analysis:
+
+* Layer 0 (Scorecards): High-level KPIs for quick checks.
+
+* Layer 1 (Breakdowns): Metrics by vendor, category, or time period.
+
+* Layer 2 (Deep-Dives): Multi-dimensional views (e.g., cost by vendor × product) to identify root causes.
+
+### ✅ Step 4 – Prototype
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2015a0c-52d5-4758-899f-b5e831765858" />
+
+The first prototype of the Procurement Performance Dashboard was developed with:
+
+* Scorecards for Back Order Rate, On-Time Delivery %, Average PO Cost, and Stockout Risk %.
+
+* Trend charts and filters to track performance over time and across vendors.
+
+* Breakdown tables by supplier, product category, and time for deeper analysis.
+
+* Color-coded status indicators (green/yellow/red) for quick decision-making.
+
+This allowed different stakeholders to use the dashboard according to their needs: executives for quick checks, managers for root-cause analysis, and staff for operational monitoring.
+
+### ✅ Step 5 – Review
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2240e7f-33c7-4588-a7ae-67f9eea50056" />
+
+After rollout, the dashboard underwent review sessions with stakeholders:
+
+* Executives confirmed it provided real-time visibility into procurement KPIs.
+
+* Managers used it effectively in meetings to diagnose issues and validate trends.
+
+* Staff found it helpful in detecting supplier delays and potential stockouts earlier.
+
+Key outcomes of the review:
+
+* Positive Impact: Faster identification of vendor risks and cost anomalies, improved alignment between Purchasing and Production.
+
+* Improvement Areas: Need for demand forecast accuracy and supplier benchmarking against market prices.
+
+* Next Steps: Add predictive analytics, refine filters, and expand supplier evaluation criteria (e.g., quality, responsiveness).
+
+### ✅ Conclusion
+
+Through the Design Thinking process, the project successfully transformed fragmented procurement data into a centralized, actionable dashboard. This empowered the organization to make data-driven decisions, resulting in:
+
+* Reduced back order risks
+
+* Optimized purchasing costs
+
+* Stronger vendor management
+
+* Improved operational efficiency
+
+The Procurement Performance Dashboard became a strategic tool for enhancing both short-term operations and long-term supply chain resilience.
 
 ## IV. Visualization
 ### 1. Entity Relationship Diagram Model
